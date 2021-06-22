@@ -2,6 +2,7 @@ $(document).ready(function () {
   $(".page-nav-bar").html(getNavBar());
   $(".page-footer").html(getFooterBar());
   $(".sidenav").sidenav();
+  $(".parallax").parallax();
 });
 
 function getNavBar() {
