@@ -8,8 +8,7 @@ function getNavBar() {
   return `
   <div class="nav-wrapper container">
         <a id="logo-container" href="#" class="brand-logo"
-          ><img src="./content/OmXPS-logo.png" alt="" srcset="" height="70"
-        /></a>
+          >OmXPS</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
