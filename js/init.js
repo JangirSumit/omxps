@@ -8,7 +8,7 @@ $(document).ready(function () {
 function getNavBar() {
   return `
   <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo"
+        <a id="logo-container" href="index.html" class="brand-logo"
           >OmXPS</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">Home</a></li>
