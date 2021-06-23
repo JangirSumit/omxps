@@ -37,29 +37,19 @@ function getFooterBar() {
   <div class="container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Company Bio</h5>
+            <h5 class="white-text">About Us</h5>
             <p class="grey-text text-lighten-4">
-              We are a team of college students working on this project like
-              it's our full time job. Any amount would help support and continue
-              development on this project and is greatly appreciated.
+            Omkara Transport Private Limited’s Annual General Meeting (AGM) was last held on 30 September 2019. As per records from Ministry of Corporate Affairs (MCA), its balance sheet was last filed on 31 March 2019.. Directors of Omkara Transport Private Limited are Om Prakash Jangid and Gori Shankar Jangid.
             </p>
           </div>
-          <div class="col l3 s12">
-            <h5 class="white-text">Settings</h5>
-            <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
-            </ul>
-          </div>
-          <div class="col l3 s12">
+          <div class="col l6 s12">
             <h5 class="white-text">Connect</h5>
             <ul>
-              <li><a class="white-text" href="#!">Link 1</a></li>
-              <li><a class="white-text" href="#!">Link 2</a></li>
-              <li><a class="white-text" href="#!">Link 3</a></li>
-              <li><a class="white-text" href="#!">Link 4</a></li>
+              <li><a class="white-text" href="index.html">Home</a></li>
+              <li><a class="white-text" href="services.html">Services</a></li>
+              <li><a class="white-text" href="gallery.html">Gallery</a></li>
+              <li><a class="white-text" href="about.html">About Us</a></li>
+              <li><a class="white-text" href="contact.html">Contact Us</a></li>
             </ul>
           </div>
         </div>
