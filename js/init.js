@@ -36,13 +36,18 @@ function getFooterBar() {
   return `
   <div class="container">
         <div class="row">
-          <div class="col l6 s12">
+          <div class="col m6 s12">
             <h5 class="white-text">About Us</h5>
             <p class="grey-text text-lighten-4">
-            Omkara Transport Private Limited’s Annual General Meeting (AGM) was last held on 30 September 2019. As per records from Ministry of Corporate Affairs (MCA), its balance sheet was last filed on 31 March 2019.. Directors of Omkara Transport Private Limited are Om Prakash Jangid and Gori Shankar Jangid.
+            Omkara Transport Private Limited’s Annual General Meeting (AGM) was last held on 30 September 2019. 
+            We provide PARCEL Services from MUMBAI, BHIWANDI, PUNE, VAPI & SILVASA to DELHI, GURGAON, FARIDABAD, CHANDIGARH, PANTNAGAR 
+            & vice versa in lowest transit time of 4 days. We are specialist in transportation of project over dimension cargo and machinery. 
+            We are lifting the 20’ & 40’ containers of import &export from MUMBAI AND NAHVA SHEVA PORT for various I.C.Ds & C.F.Ss (dry ports). 
+            We have the trained staff and skilled labor to handle your consignments and cargo at the safest method. We trust in view of above facts 
+            your good self will consider us & give an opportunity to prove ourselves. Looking forward to handle your transportation at the very earliest.
             </p>
           </div>
-          <div class="col l6 s12">
+          <div class="col m6 s12">
             <h5 class="white-text">Connect</h5>
             <ul>
               <li><a class="white-text" href="index.html">Home</a></li>
