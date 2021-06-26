@@ -273,6 +273,13 @@ nav .sidenav-trigger i {
   height: 120px;
   line-height: 120px;
 }
+.card .card-title {
+  font-size: 20px;
+  font-weight: 300;
+}
+nav a {
+  color: #009688;
+}
 @media only screen and (max-width: 990px) {
   .img-resp {
     width: 114px;
