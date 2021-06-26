@@ -11,21 +11,21 @@ function getNavBar() {
         <a id="logo-container" href="index.html" class="brand-logo"
           ><img src="./content/logo omkara bg.png" alt="omkara-transport logo" class="logo"/></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="offices.html">Our Offices</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a class="teal-text" href="index.html">Home</a></li>
+          <li><a class="teal-text" href="services.html">Services</a></li>
+          <li><a class="teal-text" href="gallery.html">Gallery</a></li>
+          <li><a class="teal-text" href="offices.html">Our Offices</a></li>
+          <li><a class="teal-text" href="about.html">About Us</a></li>
+          <li><a class="teal-text" href="contact.html">Contact Us</a></li>
         </ul>
 
         <ul id="nav-mobile" class="sidenav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="offices.html">Our Offices</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a class="teal-text" href="index.html">Home</a></li>
+          <li><a class="teal-text" href="services.html">Services</a></li>
+          <li><a class="teal-text" href="gallery.html">Gallery</a></li>
+          <li><a class="teal-text" href="offices.html">Our Offices</a></li>
+          <li><a class="teal-text" href="about.html">About Us</a></li>
+          <li><a class="teal-text" href="contact.html">Contact Us</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"
           ><i class="material-icons">menu</i></a
@@ -61,7 +61,7 @@ function getFooterBar() {
             </ul>
           </div>
           <div class="col m3 s12">
-            <h5 class="white-text">Contats</h5>
+            <h5 class="white-text">Headquater</h5>
             <b>Omkara Transport P Ltd</b><br/>
                 The Professional Carriers with Personal Care<br/>
               <address>Head Office:-660,Sanjay Enclave,<br/>Opp.G.T.K.Depot.G.T.Karnal Road, Delhi-33
