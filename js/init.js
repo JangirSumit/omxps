@@ -41,12 +41,27 @@ function getFooterBar() {
           <div class="col m6 s12">
             <h5 class="white-text">About Us</h5>
             <p class="grey-text text-lighten-4">
-            Omkara Transport Private Limited’s Annual General Meeting (AGM) was last held on 30 September 2019. 
-            We provide PARCEL Services from MUMBAI, BHIWANDI, PUNE, VAPI & SILVASA to DELHI, GURGAON, FARIDABAD, CHANDIGARH, PANTNAGAR 
-            & vice versa in lowest transit time of 4 days. We are specialist in transportation of project over dimension cargo and machinery. 
-            We are lifting the 20’ & 40’ containers of import &export from MUMBAI AND NAHVA SHEVA PORT for various I.C.Ds & C.F.Ss (dry ports). 
-            We have the trained staff and skilled labor to handle your consignments and cargo at the safest method. We trust in view of above facts 
-            your good self will consider us & give an opportunity to prove ourselves. Looking forward to handle your transportation at the very earliest.
+              We are very much pleased to introduce ourselves as one of the
+              leading IBA Approved vide Code DLO-1879 transporters in India,
+              having our Head Office at Delhi, Branch Offices and Associated
+              Offices in almost all the major cities and ports of India.
+              <br /><br />
+              In list of our fleet, We have entire range of GOODS VEHICLES i.e.
+              trailers, trucks, LCVs and containerized vehicles. <br /><br />
+              We are providing PARCEL Services from MUMBAI, BHIWANDI, VAPI and
+              SILVASSA to DELHI, GURGAON, BHIWARI, FARIDABAD, NOIDA and vice
+              versa in lowest transit time of 4 days. <br /><br />
+              We are providing 48 hours committed fast delivery service for
+              above stations also. We are specialist in the transportation of
+              over dimension cargo and machinery. We are lifting the 20’ &amp;
+              40’ containers of import &amp; export from MUMBAI AND NAHVA SHEVA
+              PORT for various I.C.Ds &amp; C.F.Ss.(dry ports). <br /><br />
+              We have trained staff and skilled labour to handle your
+              consignments and cargo at the very safest method. We trust in view
+              of above facts your good self will consider us &amp; give an
+              opportunity to prove ourselves. We will be highly obliged and
+              grateful to you if you will pass on any enquiry for road freight
+              so that you will find our rates as best and very competitive.
             </p>
           </div>
           <div class="col m3 s12">
