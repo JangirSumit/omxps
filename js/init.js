@@ -9,11 +9,12 @@ function getNavBar() {
   return `
   <div class="nav-wrapper container">
         <a id="logo-container" href="index.html" class="brand-logo"
-          >OmXPS</a>
+          ><img src="./content/logo omkara bg.png" alt="omkara-transport logo" class="logo"/></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="offices.html">Our Offices</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -22,6 +23,7 @@ function getNavBar() {
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="offices.html">Our Offices</a></li>
           <li><a href="about.html">About Us</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
@@ -47,16 +49,25 @@ function getFooterBar() {
             your good self will consider us & give an opportunity to prove ourselves. Looking forward to handle your transportation at the very earliest.
             </p>
           </div>
-          <div class="col m6 s12">
+          <div class="col m3 s12">
             <h5 class="white-text">Connect</h5>
             <ul>
               <li><a class="white-text" href="index.html">Home</a></li>
               <li><a class="white-text" href="services.html">Services</a></li>
               <li><a class="white-text" href="gallery.html">Gallery</a></li>
+              <li><a class="white-text" href="offices.html">Our Offices</a></li>
               <li><a class="white-text" href="about.html">About Us</a></li>
               <li><a class="white-text" href="contact.html">Contact Us</a></li>
             </ul>
           </div>
+          <div class="col m3 s12">
+            <h5 class="white-text">Contats</h5>
+            <b>Omkara Transport P Ltd</b><br/>
+                The Professional Carriers with Personal Care<br/>
+              <address>Head Office:-660,Sanjay Enclave,<br/>Opp.G.T.K.Depot.G.T.Karnal Road, Delhi-33
+              Ph.[91-11] 27639241,27639341,27630041,27634841,27633841<br/>
+                Website: <a href="#" target="_blank">www.omkaratransport.com</a>
+                <br/>Email: <a href="mailTo:accounts@omkaratransport.com">accounts@omkaratransport.com</a></address>
         </div>
       </div>
       <div class="footer-copyright">
