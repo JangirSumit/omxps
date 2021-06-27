@@ -67,7 +67,7 @@ function getFooterBar() {
           </div>
           <div class="col m3 s12">
             <h5 class="white-text">Connect</h5>
-            <ul>
+            <ul style="line-height: 30px;">
               <li><a class="white-text" href="index.html">Home</a></li>
               <li><a class="white-text" href="services.html">Services</a></li>
               <li><a class="white-text" href="gallery.html">Gallery</a></li>
