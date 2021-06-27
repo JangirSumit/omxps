@@ -3,6 +3,7 @@ $(document).ready(function () {
   $(".page-footer").html(getFooterBar());
   $(".sidenav").sidenav();
   $(".parallax").parallax();
+  $(".materialboxed").materialbox();
 });
 
 function getNavBar() {

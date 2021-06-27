@@ -280,6 +280,10 @@ nav .sidenav-trigger i {
 nav a {
   color: #009688;
 }
+.img-gallery img {
+  max-height: 300px;
+  width: 100%;
+}
 @media only screen and (max-width: 990px) {
   .img-resp {
     width: 114px;
@@ -382,5 +386,8 @@ nav a {
   }
   .main-timeline .description {
     text-align: center;
+  }
+  .img-gallery img {
+    max-height: auto;
   }
 }
