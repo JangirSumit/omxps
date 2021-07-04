@@ -281,8 +281,8 @@ nav a {
   color: #009688;
 }
 .img-gallery img {
-  max-height: 300px;
-  width: 100%;
+  height: 300px;
+  width: 300px;
 }
 @media only screen and (max-width: 990px) {
   .img-resp {
@@ -388,7 +388,6 @@ nav a {
     text-align: center;
   }
   .img-gallery img {
-    max-height: auto;
     width: 100%;
     height: 100%;
   }
