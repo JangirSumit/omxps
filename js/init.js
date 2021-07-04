@@ -3,7 +3,8 @@ $(document).ready(function () {
   $(".page-footer").html(getFooterBar());
   $(".sidenav").sidenav();
   $(".parallax").parallax();
-  getGalleryImages();
+  renderGalleryImages();
+  renderHomeScreenGallery();
 });
 
 function getNavBar() {
@@ -97,7 +98,7 @@ function getFooterBar() {
   `;
 }
 
-function getGalleryImages() {
+function renderGalleryImages() {
   if (window.location.pathname !== "/gallery.html") {
     return;
   }
@@ -180,4 +181,42 @@ function renderRandomImages() {
   }
 
   $(".img-gallery-random").append(odc);
+}
+
+function renderHomeScreenGallery() {
+  if (
+    window.location.pathname !== "/index.html" &&
+    window.location.pathname !== "/"
+  ) {
+    return;
+  }
+
+  var gallery = "";
+  var randoms = [];
+
+  while (randoms.length != 3) {
+    var random = Math.floor(Math.random() * 18) + 1;
+    if (randoms.indexOf(random) < 0) {
+      randoms.push(random);
+    }
+  }
+
+  for (let index = 0; index < randoms.length; index++) {
+    gallery += `
+          <div class="col s12 m4">
+          <img
+            src="./content/gallery/ODC/ODC (${randoms[index]}).jpeg"
+            alt=""
+            class="responsive-img materialboxed"
+          />
+          <br />
+        </div>
+    `;
+  }
+
+  gallery += `
+        <div class="center-align"><a href="gallery.html">View More...</a></div>
+  `;
+
+  $(".home-screen-gallery").append(gallery);
 }
