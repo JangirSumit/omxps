@@ -3,7 +3,7 @@ $(document).ready(function () {
   $(".page-footer").html(getFooterBar());
   $(".sidenav").sidenav();
   $(".parallax").parallax();
-  $(".materialboxed").materialbox();
+  getGalleryImages();
 });
 
 function getNavBar() {
@@ -95,4 +95,89 @@ function getFooterBar() {
         </div>
       </div>
   `;
+}
+
+function getGalleryImages() {
+  if (window.location.pathname !== "/gallery.html") {
+    return;
+  }
+  renderODCImages();
+  renderRandomImages();
+  $(".materialboxed").materialbox();
+  $(".progress").hide();
+}
+
+function renderODCImages(params) {
+  var odc = "";
+
+  for (let index = 0; index < 6; index++) {
+    odc += `
+    <div class="row">
+      <div class="col s12 m4">
+        <img
+          src="./content/gallery/ODC/ODC (${3 * index + 1}).jpeg"
+          alt=""
+          class="responsive-img materialboxed"
+          async
+        />
+        <br />
+      </div>
+      <div class="col s12 m4">
+        <img
+          src="./content/gallery/ODC/ODC (${3 * index + 2}).jpeg"
+          alt=""
+          class="responsive-img materialboxed"
+        />
+        <br />
+      </div>
+      <div class="col s12 m4">
+        <img
+          src="./content/gallery/ODC/ODC (${3 * index + 3}).jpeg"
+          alt=""
+          class="responsive-img materialboxed"
+        />
+        <br />
+      </div>
+    </div>
+    `;
+  }
+
+  $(".img-gallery-odc").append(odc);
+}
+
+function renderRandomImages() {
+  var odc = "";
+
+  for (let index = 0; index < 6; index++) {
+    odc += `
+    <div class="row">
+      <div class="col s12 m4">
+        <img
+          src="./content/gallery/Random/Random (${3 * index + 1}).jpg"
+          alt=""
+          class="responsive-img materialboxed" async
+        />
+        <br />
+      </div>
+      <div class="col s12 m4">
+        <img
+          src="./content/gallery/Random/Random (${3 * index + 2}).jpg"
+          alt=""
+          class="responsive-img materialboxed"
+        />
+        <br />
+      </div>
+      <div class="col s12 m4">
+        <img
+          src="./content/gallery/Random/Random (${3 * index + 3}).jpg"
+          alt=""
+          class="responsive-img materialboxed"
+        />
+        <br />
+      </div>
+    </div>
+    `;
+  }
+
+  $(".img-gallery-random").append(odc);
 }
