@@ -219,4 +219,5 @@ function renderHomeScreenGallery() {
   `;
 
   $(".home-screen-gallery").append(gallery);
+  $(".materialboxed").materialbox();
 }
