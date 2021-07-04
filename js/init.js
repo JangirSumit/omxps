@@ -215,7 +215,7 @@ function renderHomeScreenGallery() {
   }
 
   gallery += `
-        <div class="center-align"><a href="gallery.html">View More...</a></div>
+        <div class="center-align"><a class="waves-effect waves-light btn-large" href="gallery.html">View More...</a></div>
   `;
 
   $(".home-screen-gallery").append(gallery);
