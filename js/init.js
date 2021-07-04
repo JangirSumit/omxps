@@ -99,7 +99,7 @@ function getFooterBar() {
 }
 
 function renderGalleryImages() {
-  if (window.location.pathname !== "/gallery.html") {
+  if (window.location.pathname.indexOf("/gallery.html") === -1) {
     return;
   }
   renderODCImages();
@@ -185,7 +185,7 @@ function renderRandomImages() {
 
 function renderHomeScreenGallery() {
   if (
-    window.location.pathname !== "/index.html" &&
+    window.location.pathname.indexOf("/index.html") === -1 &&
     window.location.pathname !== "/"
   ) {
     return;
