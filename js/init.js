@@ -148,7 +148,7 @@ function renderODCImages(params) {
 function renderRandomImages() {
   var odc = "";
 
-  for (let index = 0; index < 6; index++) {
+  for (let index = 0; index < 7; index++) {
     odc += `
     <div class="row">
       <div class="col s12 m4">
