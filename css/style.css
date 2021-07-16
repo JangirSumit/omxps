@@ -284,6 +284,9 @@ nav a {
   height: 300px;
   width: 100%;
 }
+.youtube {
+  height: 700px;
+}
 @media only screen and (max-width: 990px) {
   .img-resp {
     width: 114px;
@@ -345,6 +348,9 @@ nav a {
   .main-timeline .timeline:nth-child(even) {
     margin: 0;
   }
+  .youtube {
+    height: 300px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .main-timeline:before {
@@ -390,5 +396,8 @@ nav a {
   .img-gallery img {
     width: 100%;
     height: 100%;
+  }
+  .youtube {
+    height: 200px;
   }
 }
