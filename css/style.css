@@ -5,6 +5,11 @@
  *
  * Made By MaterializeCSS.com
  */
+a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: underline;
+}
 
 .icon-block {
   padding: 0 15px;

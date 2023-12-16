@@ -82,7 +82,9 @@ function getFooterBar() {
             <b>Omkara Transport P Ltd</b><br/>
                 The Professional Carriers with Personal Care<br/>
               <address>Head Office:-660,Sanjay Enclave,<br/>Opp.G.T.K.Depot.G.T.Karnal Road, Delhi-33
-              Ph.[91-11] 27639241,27639341,27630041,27634841,27633841<br/>
+              Ph.<a href="tel:+91 9350154841">+91-9350154841</a>,<br/>
+              <a href="tel:+91 9311310041">+91-9311310041</a>,<br/>
+              <a href="tel:+91 7678698709">+91-7678698709</a><br/>
                 Website: <a href="#" target="_blank">www.omkaratransport.com</a>
                 <br/>Email: <a href="mailTo:accounts@omkaratransport.com">accounts@omkaratransport.com</a></address>
         </div>
@@ -154,7 +156,7 @@ function renderRandomImages() {
     <div class="row">
       <div class="col s12 m4">
         <img
-          src="./content/gallery/Random/Random (${3 * index + 1}).jpg"
+          src="./content/gallery/Random/Random (${3 * index + 1}).jpg" async
           alt=""
           class="responsive-img materialboxed" async
         />
@@ -162,7 +164,7 @@ function renderRandomImages() {
       </div>
       <div class="col s12 m4">
         <img
-          src="./content/gallery/Random/Random (${3 * index + 2}).jpg"
+          src="./content/gallery/Random/Random (${3 * index + 2}).jpg" async
           alt=""
           class="responsive-img materialboxed"
         />
@@ -170,7 +172,7 @@ function renderRandomImages() {
       </div>
       <div class="col s12 m4">
         <img
-          src="./content/gallery/Random/Random (${3 * index + 3}).jpg"
+          src="./content/gallery/Random/Random (${3 * index + 3}).jpg" async
           alt=""
           class="responsive-img materialboxed"
         />
